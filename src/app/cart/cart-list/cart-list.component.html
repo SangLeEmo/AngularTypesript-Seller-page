@@ -1,0 +1,21 @@
+<!--<div>
+  Danh sách giỏ hàng:
+  <ul>
+    <li *ngFor="let item of cartItems">
+      {{item.product.name}} - {{item.product.price}} * {{item.quantity}};
+    </li>
+  </ul>
+</div>-->
+<div class="card text-center">
+  <div class="card-header">
+    Danh sách giỏ hàng:
+  </div>
+  <div class="card-body">
+    <li *ngFor="let item of cartItems">
+      {{item.product.name}} - {{item.product.price}} * {{item.quantity}};
+    </li>
+  </div>
+  <div class="card-footer text-muted">
+    #####
+  </div>
+</div>

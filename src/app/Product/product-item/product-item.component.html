@@ -1,0 +1,27 @@
+<!-- <div *ngIf="products">
+  <ul>
+    <li *ngFor="let product of products">
+      <a [routerLink]="[ '/product/' + product.id ]">
+        <img [src]="product.image" alt="">
+        Mã SP: {{ product.id }} - Tên SP: {{product.name}} - Size: {{product.size}} - {{product.price}}đ
+      </a>
+    </li>
+  </ul>
+</div> -->
+<div *ngIf="products" class="row">
+  <div class="col-md-4 col-sm-6 col-6" *ngFor="let product of products">
+    <div class="card text-center" [routerLink]="[ '/product/' + product.id ]" style="min-height: 400px; max-height: 550px;">
+      <img [src]="product.image" class="card-img-top" [alt]="product.name" >
+      <div class="card-body">
+        <div class="card-title" >
+          <h5>{{ product.name }}</h5>
+        </div>
+        <!-- <p class="card-text">#{{ product.id }}</p> -->
+        <p class="card-text"><small class="text-mute">Size: {{ product.size }}</small></p>
+      </div>
+      <div class="card-footer">
+        <p>{{ product.price | currency: 'VND' }}</p>
+      </div>
+    </div>
+  </div>
+</div>

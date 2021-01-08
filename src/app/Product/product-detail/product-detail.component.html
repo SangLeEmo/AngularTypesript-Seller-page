@@ -1,0 +1,37 @@
+<!--<div class="container">
+  <img [src]="product.image" alt="">
+  <h3>{{product.name}}</h3> - <h5>{{ product.id }}</h5>
+  <p>Size: {{product.size}}</p>
+  <p>Giá: {{product.price}}</p>
+  <label>Số lượng: </label>
+  <input type="number" [(ngModel)]="quantity" [value]="quantity">
+  <button (click)="AddToCart()">Thêm vào giỏ hàng</button>
+</div>-->
+<div class="container text-center">
+  <div class="card mb-3" style="max-width: 840px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img [src]="product.image" class="card-img" [alt]="product.name">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title"><a style="font-size:44px;">{{product.name}}</a> ( {{ product.id }} )</h5>
+          <p class="card-text">Size: <a style="font-size:24px;">{{product.size}}</a></p>
+          <p class="card-text">Giá: <a style="font-size:40px;"> {{product.price}}</a> VNĐ</p>
+          <!--<label>Số lượng: </label>-->
+          <!--<input type="number" [(ngModel)]="quantity" [value]="quantity">-->
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Số lượng</span>
+            </div>
+            <input type="number" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2" [(ngModel)]="quantity" [value]="quantity" min="1">
+            <div class="input-group-append">
+              <span class="input-group-text" id="basic-addon2">cái</span>
+            </div>
+          </div>
+          <button class="btn btn-success" (click)="AddToCart()">Thêm vào giỏ hàng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

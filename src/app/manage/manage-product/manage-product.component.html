@@ -1,0 +1,50 @@
+<!--<div>
+  <a [routerLink]="['/manage/product/add']" type="button"><button>Thêm</button></a>
+  <ul>
+    <li *ngFor="let product of products">
+      <a [routerLink]="[ '/manage/product/' + product.id ]">
+        {{product.id}} - {{product.name}} - {{product.size}} - {{product.price}}đ
+      </a>&nbsp;-&nbsp;
+      <button (click)="DeleteProduct(product.id)">Xoá</button>
+    </li>
+  </ul>
+</div>-->
+
+<div class="card">
+  <div class="card-header">
+    <b>All of product :</b>
+    <button [routerLink]="['/manage/product/add']" class="btn btn-success float-right">Thêm</button>
+  </div>
+  <div class="card-body">
+    <div class="table-responsive">
+      <table class="table">
+        <thead>
+          <tr class="text-center">
+            <th>Image</th>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Size</th>
+            <th>Price</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr class="text-center" *ngFor="let product of products" [routerLink]="[ '/manage/product/' + product.id ]"> -->
+          <tr class="text-center" *ngFor="let product of products">
+            <td>
+              <img [src]="product.image" class="" [alt]="product.name" style="max-width: 200px;">
+            </td>
+            <td>{{ product.id }}</td>
+            <td>{{product.name}}</td>
+            <td>{{product.size}}</td>
+            <td>{{product.price | currency: 'VND'}}</td>
+            <td>
+              <a class="btn btn-info" [routerLink]="[ '/manage/product/' + product.id ]">Edit</a>
+              <button (click)="DeleteProduct(product.id)" class="btn btn-danger">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
