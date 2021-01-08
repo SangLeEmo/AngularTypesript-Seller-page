@@ -514,19 +514,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "jhN1");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "Sy1n");
-/* harmony import */ var _Product_product_list_product_list_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Product/product-list/product-list.component */ "bVPI");
-/* harmony import */ var _Product_product_item_product_item_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Product/product-item/product-item.component */ "zROK");
-/* harmony import */ var _Product_product_detail_product_detail_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Product/product-detail/product-detail.component */ "yr4X");
-/* harmony import */ var _cart_cart_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./cart/cart.component */ "c2A7");
-/* harmony import */ var _Cart_cart_list_cart_list_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Cart/cart-list/cart-list.component */ "PG7V");
-/* harmony import */ var _manage_manage_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./manage/manage.component */ "/q8S");
-/* harmony import */ var _Manage_manage_product_manage_product_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Manage/manage-product/manage-product.component */ "i4//");
-/* harmony import */ var _manage_manage_product_add_manage_product_add_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./manage/manage-product-add/manage-product-add.component */ "fwAn");
-/* harmony import */ var _manage_manage_product_edit_manage_product_edit_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./manage/manage-product-edit/manage-product-edit.component */ "KctG");
-/* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./header/header.component */ "fECr");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/forms */ "3Pt+");
+/* harmony import */ var _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/angular-fontawesome */ "6NWb");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.component */ "Sy1n");
+/* harmony import */ var _Product_product_list_product_list_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Product/product-list/product-list.component */ "bVPI");
+/* harmony import */ var _Product_product_item_product_item_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Product/product-item/product-item.component */ "zROK");
+/* harmony import */ var _Product_product_detail_product_detail_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Product/product-detail/product-detail.component */ "yr4X");
+/* harmony import */ var _cart_cart_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./cart/cart.component */ "c2A7");
+/* harmony import */ var _Cart_cart_list_cart_list_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Cart/cart-list/cart-list.component */ "PG7V");
+/* harmony import */ var _manage_manage_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./manage/manage.component */ "/q8S");
+/* harmony import */ var _Manage_manage_product_manage_product_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Manage/manage-product/manage-product.component */ "i4//");
+/* harmony import */ var _manage_manage_product_add_manage_product_add_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./manage/manage-product-add/manage-product-add.component */ "fwAn");
+/* harmony import */ var _manage_manage_product_edit_manage_product_edit_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./manage/manage-product-edit/manage-product-edit.component */ "KctG");
+/* harmony import */ var _header_header_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./header/header.component */ "fECr");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/forms */ "3Pt+");
+
 
 
 
@@ -550,27 +552,28 @@ var AppModule = /** @class */ (function () {
     AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
-                _Product_product_list_product_list_component__WEBPACK_IMPORTED_MODULE_6__["ProductListComponent"],
-                _Product_product_item_product_item_component__WEBPACK_IMPORTED_MODULE_7__["ProductItemComponent"],
-                _Product_product_detail_product_detail_component__WEBPACK_IMPORTED_MODULE_8__["ProductDetailComponent"],
-                _cart_cart_component__WEBPACK_IMPORTED_MODULE_9__["CartComponent"],
-                _Cart_cart_list_cart_list_component__WEBPACK_IMPORTED_MODULE_10__["CartListComponent"],
-                _manage_manage_component__WEBPACK_IMPORTED_MODULE_11__["ManageComponent"],
-                _Manage_manage_product_manage_product_component__WEBPACK_IMPORTED_MODULE_12__["ManageProductComponent"],
-                _manage_manage_product_add_manage_product_add_component__WEBPACK_IMPORTED_MODULE_13__["ManageProductAddComponent"],
-                _manage_manage_product_edit_manage_product_edit_component__WEBPACK_IMPORTED_MODULE_14__["ManageProductEditComponent"],
-                _header_header_component__WEBPACK_IMPORTED_MODULE_15__["HeaderComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"],
+                _Product_product_list_product_list_component__WEBPACK_IMPORTED_MODULE_7__["ProductListComponent"],
+                _Product_product_item_product_item_component__WEBPACK_IMPORTED_MODULE_8__["ProductItemComponent"],
+                _Product_product_detail_product_detail_component__WEBPACK_IMPORTED_MODULE_9__["ProductDetailComponent"],
+                _cart_cart_component__WEBPACK_IMPORTED_MODULE_10__["CartComponent"],
+                _Cart_cart_list_cart_list_component__WEBPACK_IMPORTED_MODULE_11__["CartListComponent"],
+                _manage_manage_component__WEBPACK_IMPORTED_MODULE_12__["ManageComponent"],
+                _Manage_manage_product_manage_product_component__WEBPACK_IMPORTED_MODULE_13__["ManageProductComponent"],
+                _manage_manage_product_add_manage_product_add_component__WEBPACK_IMPORTED_MODULE_14__["ManageProductAddComponent"],
+                _manage_manage_product_edit_manage_product_edit_component__WEBPACK_IMPORTED_MODULE_15__["ManageProductEditComponent"],
+                _header_header_component__WEBPACK_IMPORTED_MODULE_16__["HeaderComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"],
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
                 _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_16__["FormsModule"]
+                _angular_forms__WEBPACK_IMPORTED_MODULE_17__["FormsModule"],
+                _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeModule"]
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -914,7 +917,7 @@ var ManageProductComponent = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!--<div>\r\n  <a [routerLink]=\"['/manage/product/add']\" type=\"button\"><button>Thêm</button></a>\r\n  <ul>\r\n    <li *ngFor=\"let product of products\">\r\n      <a [routerLink]=\"[ '/manage/product/' + product.id ]\">\r\n        {{product.id}} - {{product.name}} - {{product.size}} - {{product.price}}đ\r\n      </a>&nbsp;-&nbsp;\r\n      <button (click)=\"DeleteProduct(product.id)\">Xoá</button>\r\n    </li>\r\n  </ul>\r\n</div>-->\r\n\r\n<div class=\"card\">\r\n  <div class=\"card-header\">\r\n    <b>All of product :</b>\r\n    <button [routerLink]=\"['/manage/product/add']\" class=\"btn btn-success float-right\">Thêm</button>\r\n  </div>\r\n  <div class=\"card-body\">\r\n    <div class=\"table-responsive\">\r\n      <table class=\"table\">\r\n        <thead>\r\n          <tr class=\"text-center\">\r\n            <th>Image</th>\r\n            <th>ID</th>\r\n            <th>Name</th>\r\n            <th>Size</th>\r\n            <th>Price</th>\r\n            <th></th>\r\n          </tr>\r\n        </thead>\r\n        <tbody>\r\n          <!-- <tr class=\"text-center\" *ngFor=\"let product of products\" [routerLink]=\"[ '/manage/product/' + product.id ]\"> -->\r\n          <tr class=\"text-center\" *ngFor=\"let product of products\">\r\n            <td>\r\n              <img [src]=\"product.image\" class=\"\" [alt]=\"product.name\" style=\"max-width: 200px;\">\r\n            </td>\r\n            <td>{{ product.id }}</td>\r\n            <td>{{product.name}}</td>\r\n            <td>{{product.size}}</td>\r\n            <td>{{product.price | currency: 'VND'}}</td>\r\n            <td>\r\n              <a class=\"btn btn-info\" [routerLink]=\"[ '/manage/product/' + product.id ]\">Edit</a>\r\n              <button (click)=\"DeleteProduct(product.id)\" class=\"btn btn-danger\">Delete</button>\r\n            </td>\r\n          </tr>\r\n        </tbody>\r\n      </table>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!--<div>\r\n  <a [routerLink]=\"['/manage/product/add']\" type=\"button\"><button>Thêm</button></a>\r\n  <ul>\r\n    <li *ngFor=\"let product of products\">\r\n      <a [routerLink]=\"[ '/manage/product/' + product.id ]\">\r\n        {{product.id}} - {{product.name}} - {{product.size}} - {{product.price}}đ\r\n      </a>&nbsp;-&nbsp;\r\n      <button (click)=\"DeleteProduct(product.id)\">Xoá</button>\r\n    </li>\r\n  </ul>\r\n</div>-->\r\n\r\n<div class=\"card\">\r\n  <div class=\"card-header\">\r\n    <b>All of product :</b>\r\n    <button [routerLink]=\"['/manage/product/add']\" class=\"btn btn-success float-right\"><i class=\"fa fa-pencil\"></i></button>\r\n  </div>\r\n  <div class=\"card-body\">\r\n    <div class=\"table-responsive\">\r\n      <table class=\"table\">\r\n        <thead>\r\n          <tr class=\"text-center\">\r\n            <th>Image</th>\r\n            <th>ID</th>\r\n            <th>Name</th>\r\n            <th>Size</th>\r\n            <th>Price</th>\r\n            <th></th>\r\n          </tr>\r\n        </thead>\r\n        <tbody>\r\n          <!-- <tr class=\"text-center\" *ngFor=\"let product of products\" [routerLink]=\"[ '/manage/product/' + product.id ]\"> -->\r\n          <tr class=\"text-center\" *ngFor=\"let product of products\">\r\n            <td>\r\n              <img [src]=\"product.image\" class=\"\" [alt]=\"product.name\" style=\"max-width: 200px;\">\r\n            </td>\r\n            <td>{{ product.id }}</td>\r\n            <td>{{product.name}}</td>\r\n            <td>{{product.size}}</td>\r\n            <td>{{product.price | currency: 'VND'}}</td>\r\n            <td>\r\n              <a class=\"btn btn-info\" [routerLink]=\"[ '/manage/product/' + product.id ]\">Edit</a>\r\n              <button (click)=\"DeleteProduct(product.id)\" class=\"btn btn-danger\">Delete</button>\r\n            </td>\r\n          </tr>\r\n        </tbody>\r\n      </table>\r\n    </div>\r\n  </div>\r\n</div>\r\n");
 
 /***/ }),
 
@@ -940,7 +943,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\r\n  <div class=\"\" routerLink=\"/\" style=\"display: block; margin-left: auto;   margin-right: auto\">\r\n    <img class=\"d-inline-block align-middle\" style=\"width:auto; height:45px; \" src=\"https://i.redd.it/cyrqysz0z3o21.png\">\r\n    PewDiePie\r\n  </div>\r\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n  <div class=\"collapse navbar-collapse row text-center\" id=\"navbarNav\">\r\n    <ul class=\"navbar-nav col-12 row\">\r\n      <li class=\"col-lg-3\"></li>\r\n      <li class=\"nav-item active col-md-12 col-lg-2\">\r\n        <a class=\"nav-item nav-link active\" [routerLink]=\"[ '/' ]\">Home</a>\r\n      </li>\r\n      <li class=\"nav-item col-md-12 col-lg-2\">\r\n        <a class=\"nav-item nav-link\" [routerLink]=\"[ '/cart' ]\">Cart</a>\r\n      </li>\r\n      <li class=\"nav-item col-md-12 col-lg-2\">\r\n        <a class=\"nav-item nav-link\" [routerLink]=\"[ '/manage' ]\">Manage Product</a>\r\n      </li>\r\n      <li class=\"col-lg-3\"></li>\r\n    </ul>\r\n  </div>\r\n</nav>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\r\n  <div class=\"\" routerLink=\"/\" style=\"display: block; margin-left: auto;   margin-right: auto\">\r\n    <img class=\"d-inline-block align-middle\" style=\"width:auto; height:45px; \" src=\"https://i.redd.it/cyrqysz0z3o21.png\">\r\n    PewDiePie\r\n  </div>\r\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n    <span class=\"navbar-toggler-icon\"></span>\r\n  </button>\r\n  <div class=\"collapse navbar-collapse row text-center\" id=\"navbarNav\">\r\n    <ul class=\"navbar-nav col-12 row\">\r\n      <li class=\"col-lg-3\"></li>\r\n      <li class=\"nav-item active col-md-12 col-lg-2\">\r\n        <a class=\"nav-item nav-link active\" [routerLink]=\"[ '/' ]\">Home</a>\r\n      </li>\r\n      <li class=\"nav-item col-md-12 col-lg-2\">\r\n        <a class=\"nav-item nav-link\" [routerLink]=\"[ '/cart' ]\">Cart</a>\r\n      </li>\r\n      <li class=\"nav-item col-md-12 col-lg-2\">\r\n        <a class=\"nav-item nav-link\" [routerLink]=\"[ '/manage' ]\">Manage Product</a>\r\n      </li>\r\n      <li class=\"col-lg-3\"></li>\r\n    </ul>\r\n  </div>\r\n</nav>");
 
 /***/ }),
 
